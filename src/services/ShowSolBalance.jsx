@@ -25,7 +25,7 @@ export function ShowSolBalance() {
                     {balance !== null ? `${balance.toFixed(4)} SOL` : 'Loading...'}
                 </p>
             ) : (
-                <p className="text-red-500 ">Connect your wallet to view balance.</p>
+                <p className="text-red-500 mb-1">Connect your wallet to view balance.</p>
             )}  
             </div>
     );
