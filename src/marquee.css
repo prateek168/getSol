@@ -1,0 +1,19 @@
+@keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-marquee {
+    display: flex;
+    min-width: 200%;
+    animation: marquee 20s linear infinite;
+    gap: 8rem; /* Adjust spacing between items */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+  }
+  
