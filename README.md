@@ -1,12 +1,48 @@
-# React + Vite
+# 🚀 getSol — Interact with the Solana Blockchain Easily!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **getSol** — a beginner-friendly dApp built on the Solana Devnet to demonstrate key wallet interactions like airdrops, balance checks, transactions, and message signing.
 
-Currently, two official plugins are available:
+🔗 [Live Site → https://get-sol.vercel.app/](https://get-sol.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💡 What is getSol?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+`getSol` is a simple yet powerful dApp (decentralized application) that shows how to connect a Solana wallet and interact with the blockchain using basic operations:
+
+### Features:
+
+1. **🔗 Connect Solana Wallet**  
+   Easily connect your Phantom or any supported wallet using the `@solana/wallet-adapter`.
+
+2. **🎁 Request Airdrop**  
+   Get some free SOL tokens on the **Solana Devnet** to test transactions and balances.
+
+3. **📊 Show SOL Balance**  
+   Fetch and display your current SOL balance on the Devnet — powered by `@solana/web3.js`.
+
+4. **💸 Send a Transaction**  
+   Transfer SOL tokens to another wallet directly from your connected account.
+
+5. **🖊️ Sign a Message**  
+   Prove wallet ownership by signing and verifying a message securely.
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js ⚛️
+- TailwindCSS 🎨
+- Solana Web3.js 🧱
+- @solana/wallet-adapter 🔐
+- Vercel (for deployment) 🚀
+
+---
+
+## 🔧 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/getSol.git
+cd getSol
